@@ -1,0 +1,14 @@
+<html>
+  <head>
+    Calendar
+  </head>
+  <h1> It is a Leap Year</h1>
+  <img src="http://cdn.funnie.st/wp-content/uploads/2014/03/98254_story__ph-6.jpg"/>
+  <body>
+  <pre>
+  <%=
+  year = @year
+  month = @month
+  `cal -h "#{month}" "#{year}"`%></pre>
+</body>
+</html>
